@@ -1,0 +1,135 @@
+/* General */
+* {
+  box-sizing: border-box;
+  /* height: 100%;
+  width: 100%; */
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(51, 59, 94);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  /* padding: 80px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure {
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.figure::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 500px;
+  width: 400px;
+  background-image: url('https://em-content.zobj.net/source/microsoft/106/popcorn_1f37f.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: opacity(0);
+}
+
+.figure.shown::before {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+/* Elements */
+
+.candle {
+  position: absolute;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  top: 50%;
+  left: 50%;
+}
+
+.candle::after {
+  content: '🎈';
+  position: absolute;
+  animation: floatUp 2s ease-in-out infinite;
+  height: 20px;
+  width: 20px;
+}
+
+.figure.shown .candle::after {
+  animation: floatUp 2s ease-in-out infinite, fadeOut 3s ease-in-out forwards;
+}
+
+/* Cards */
+
+.quiz-card {
+  display: none;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Animations */
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    filter: opacity(0);
+  }
+  100% {
+    filter: opacity(1);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    filter: opacity(1);
+  }
+  100% {
+    filter: opacity(0);
+  }
+}
