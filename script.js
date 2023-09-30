@@ -24,6 +24,11 @@ containerEl.addEventListener('click', addIconOnClick);
 function checkTotalIcons() {
   if (!coords.length) {
     containerEl.classList.add('shown');
+    let body = document.getElementsByTagName('body')[0];
+    console.log(body);
+    let canvas = document.createElement('canvas');
+    canvas.id = 'canvas';
+    body.appendChild(canvas);
   }
 }
 

@@ -5,11 +5,22 @@
   width: 100%; */
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
   background-color: rgb(51, 59, 94);
+}
+
+canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
 }
 
 /* Main */
@@ -46,38 +57,37 @@ body {
   animation: fadeIn 1.5s ease-in-out forwards;
 }
 
-#bear.figure {
+/* #bear.figure {
   z-index: -2;
   background-image: url('https://em-content.zobj.net/source/microsoft/319/bear_1f43b.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: opacity(1);
   top: 10%;
-}
+} */
 
 .bear-figure {
-  width: 200px; /* Adjust the size as needed */
-  height: 200px; /* Adjust the size as needed */
+  width: 200px; 
+  height: 200px; 
   background-image: url('https://em-content.zobj.net/source/microsoft/319/bear_1f43b.png');
   background-repeat: no-repeat;
   background-size: contain;
   filter: opacity(1);
-  top: 10%;
-  position: relative; /* Needed for absolute positioning of clip-path */
-  animation: bearEating 4s infinite alternate; /* Add animation */
+  top: calc(50% - 400px);
+  position: absolute;
+  animation: bearEating 4s infinite alternate; 
 }
 
-/* Define the clip-path to hide the mouth initially */
-.bear-figure::before {
+/* .bear-figure::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%; /* Adjust the height to hide the mouth */
-  background: white; /* Background color to cover the mouth */
+  height: 50%;
+  background: white;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
+} */
 
 /* Elements */
 
