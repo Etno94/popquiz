@@ -1,6 +1,22 @@
 let figureH = '500px';
 let figureW = '400px';
 
+function mouseCoordinates(event) {
+  var rect = containerEl.getBoundingClientRect();
+  // var body = document.getBoundingClientRect();
+  var coordX = event.clientX; // - rect.left;
+  var coordY = event.clientY; // - rect.top;
+  var newCandle = document.createElement('div');
+  newCandle.classList.add('candle');
+  containerEl.appendChild(newCandle);
+
+  console.log('document', event.clientX, event.clientY);
+  console.log('event', event);
+  console.log('rect', rect);
+  console.log('containerEl', containerEl);
+  console.log('newCandle', newCandle.clientX, newCandle.clientY);
+}
+
 export const coords = [
   '-4px, -240px', // vertice norte
   '130px, -100px', // vertice noreste
