@@ -103,10 +103,10 @@ function buildQuestion() {
 function checkAnswer(answerId) {
   let answer = currentQuestion.answers.find(a => a.id == answerId);
   if (answer.correct) {
-    addIcon(answer.icon);
-    closeQuizPanel();
     currentQuestion = null;
     localStorage.removeItem('currentQuestion');
+    addIcon(answer.icon);
+    closeQuizPanel();
   } else {
     let div = document.getElementById(`answer_${answerId}`);
     div.classList.add('low-contrast');
@@ -122,6 +122,7 @@ window.onload = () => {
     appendIcon(icon.coords, icon.icon, false);
     coords.splice(coords.findIndex(c => c == icon.coords), 1);
   }
+  deckElement.style.bottom = '-100px';
 };
 
 

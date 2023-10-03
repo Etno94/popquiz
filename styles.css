@@ -99,11 +99,39 @@ h1.shown:hover {
 #deck {
   width: 130px;
   height: 200px;
+  max-width: 30%;
+  max-height: 25%;
   position: absolute;
   bottom: -100px;
   right: 10px;
+  /* background-color: white;
+  border-radius: 15px; */
+}
+
+#deck .card {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  right: 0;
   background-color: white;
   border-radius: 15px;
+  border-top: 1px solid #000000ba;
+  border-right: 1px solid #000000ba;
+}
+
+#deck .card.C {
+  z-index: 1;
+}
+#deck .card.B {
+  z-index: 2;
+  top: 2px;
+  right: 2px;
+}
+#deck .card.A {
+  z-index: 3;
+  top: 4px;
+  right: 4px;
 }
 
 #quiz-panel {
