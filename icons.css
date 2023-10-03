@@ -1,0 +1,53 @@
+/* Elements */
+
+.icon {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+}
+
+  /* Candle */
+  .icon.🕯️::after {
+    content: '🕯️';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  /* Balloon */
+  .icon.🎈::after {
+    content: '🎈';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  /* Glasses */
+  .icon.😎::after {
+    content: '😎';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  /* Fire */
+  .icon.🔥::after {
+    content: '🔥';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+.figure.shown .icon::after {
+  animation: fadeOut 3s ease-in-out forwards;
+}
+.figure.shown .balloon::after {
+  animation: floatUp 2s ease-in-out infinite, fadeOut 3s ease-in-out forwards;
+}

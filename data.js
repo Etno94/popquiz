@@ -66,3 +66,57 @@ export const coords = [
   '-29px, 28px',
   '10px, 32px',
 ];
+
+export const icons = [
+  '🎈', '🕯️', '🔥',
+  '😎'
+]
+
+export const quiz = [
+  {
+    id: 1,
+    question: 'Pregunta 1',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q1 - Respuesta 1',
+        icon: '😎',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q1 - Respuesta 2',
+        icon: '🔥',
+        correct: true
+      },
+      {
+        id: 3,
+        answer: 'Q1 - Respuesta 3',
+        icon: '🎈',
+        correct: true
+      },
+    ]
+  },
+  {
+    id: 2,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈'
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  }
+]

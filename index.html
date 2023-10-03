@@ -5,25 +5,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="icons.css" />
+    <link rel="stylesheet" href="animations.css" />
     <script type="module" src="data.js"></script>
     <script type="module" src="script.js"></script>
     <script type="module" src="confeti.js"></script>
   </head>
   <body>
-    <!-- <canvas id="canvas"></canvas> -->
     <div class="container">
       <div class="bear-figure"></div>
       <div id="popcorn" class="figure"></div>
     </div>
 
-    <div class="quiz-card">
-      <h2 class="question">What is the capital of France?</h2>
-      <ul class="options">
-        <li class="option">A. Paris</li>
-        <li class="option">B. London</li>
-        <li class="option">C. Berlin</li>
-        <li class="option">D. Rome</li>
-      </ul>
+    <div id="deck">
+    </div>
+
+    <div id="quiz-panel">
+      <span class="close-card" id="closeCard">&times;</span>
+
+      <div id="card-container" class="quiz-card">
+        <h2 class="question">What is the capital of France?</h2>
+
+        <div class="options">
+          <div class="answer">
+            <span>🎈</span>
+            <span>Q1 - Respuesta 1</span>
+          </div>
+
+          <div class="answer">
+            <span>🎈</span>
+            <span>Q1 - Respuesta 2</span>
+          </div>
+
+          <div class="answer">
+            <span>🎈</span>
+            <span>Q1 - Respuesta 3</span>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </body>
 </html>
