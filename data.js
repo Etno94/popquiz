@@ -87,13 +87,11 @@ export const quiz = [
         id: 2,
         answer: 'Q1 - Respuesta 2',
         icon: '🔥',
-        correct: true
       },
       {
         id: 3,
         answer: 'Q1 - Respuesta 3',
         icon: '🎈',
-        correct: true
       },
     ]
   },
@@ -104,13 +102,13 @@ export const quiz = [
       {
         id: 1,
         answer: 'Q2 - Respuesta 1',
-        icon: '🎈'
+        icon: '🎈',
+        correct: true
       },
       {
         id: 2,
         answer: 'Q2 - Respuesta 2',
         icon: '🎈',
-        correct: true
       },
       {
         id: 3,
@@ -118,5 +116,643 @@ export const quiz = [
         icon: '🎈'
       },
     ]
-  }
+  },
+  {
+    id: 3,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 4,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 5,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 6,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 7,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 8,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 9,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 10,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 11,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 12,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 13,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 14,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 15,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 16,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 17,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 18,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 19,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 20,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 21,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 22,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 23,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 24,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 25,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 26,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 27,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 28,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 29,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 30,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
+  {
+    id: 31,
+    question: 'Pregunta 2',
+    answers: [
+      {
+        id: 1,
+        answer: 'Q2 - Respuesta 1',
+        icon: '🎈',
+        correct: true
+      },
+      {
+        id: 2,
+        answer: 'Q2 - Respuesta 2',
+        icon: '🎈',
+      },
+      {
+        id: 3,
+        answer: 'Q2 - Respuesta 3',
+        icon: '🎈'
+      },
+    ]
+  },
 ]

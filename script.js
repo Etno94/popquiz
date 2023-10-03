@@ -7,8 +7,9 @@ let currentQuestion = localStorageCurrentQuestion ? JSON.parse(localStorageCurre
 let localStorageIconsAppended = localStorage.getItem('iconsAppended');
 let iconsAppended = localStorageIconsAppended ? JSON.parse(localStorageIconsAppended) : [];
 
-let containerEl = document.getElementById('popcorn');
-containerEl.addEventListener('click', () => addIcon('🕯️'));
+let popcornEl = document.getElementById('popcorn');
+let bearEl = document.getElementById('bear');
+let congratzEl = document.getElementsByTagName('h1')[0];
 
 function addIcon(iconClass) {
   if (!coords.length) return;
@@ -23,7 +24,7 @@ function appendIcon(coords, iconClass, updateLS = true) {
   var newCandle = document.createElement('div');
   newCandle.classList.add('icon', iconClass);
   newCandle.setAttribute('style', `transform: translate(${coords})`);
-  containerEl.appendChild(newCandle);
+  popcornEl.appendChild(newCandle);
   checkTotalIcons();
 
   if (!updateLS) return;
@@ -33,12 +34,9 @@ function appendIcon(coords, iconClass, updateLS = true) {
 
 function checkTotalIcons() {
   if (!questions.length && !currentQuestion) {
-    containerEl.classList.add('shown');
-    let body = document.getElementsByTagName('body')[0];
-    console.log(body);
-    let canvas = document.createElement('canvas');
-    canvas.id = 'canvas';
-    body.appendChild(canvas);
+    popcornEl.classList.add('shown');
+    bearEl.classList.add('shown');
+    congratzEl.classList.add('shown');
   }
 }
 

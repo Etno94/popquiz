@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 /* General */
 * {
   box-sizing: border-box;
@@ -13,7 +15,8 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgb(51, 59, 94);
+  /* background-color: rgb(51, 59, 94); */
+  background-color: #CA53C4;
 }
 
 canvas {
@@ -21,6 +24,24 @@ canvas {
   overflow-x: hidden;
   width: 100%;
   margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  display: none;
+  font-family: 'Gochi Hand', cursive;
+  position: absolute;
+  top: 55%;
+  color: white;
+  filter: drop-shadow(-5px 8px 2px #793c7678);
+}
+
+h1.shown {
+  display: block;
+}
+
+h1.shown:hover {
+  animation: littleJump 1.15s ease-out infinite;
 }
 
 /* Main */
@@ -39,6 +60,7 @@ canvas {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  filter: drop-shadow(-5px 16px 4px #793c7678);
 }
 
 .figure::before {
@@ -63,13 +85,14 @@ canvas {
   background-image: url('https://em-content.zobj.net/source/microsoft/319/bear_1f43b.png');
   background-repeat: no-repeat;
   background-size: contain;
-  filter: opacity(1);
-  top: calc(50% - 380px);
+  filter: opacity(0);
+  top: calc(50% - 150px);
   position: absolute;
-  /* animation: bearShy 2s ease-in-out infinite; */
 }
 
-
+.bear-figure.shown {
+  animation: bearShy 6s ease-in-out forwards, fadeIn 0.1s 2s forwards;
+}
 
 /* Cards */
 

@@ -2,39 +2,62 @@
 
 @keyframes floatUp {
     0% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
+
     50% {
-      transform: translateY(-10px);
+        transform: translateY(-10px);
     }
+
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-  }
-  
-  @keyframes fadeIn {
+}
+
+@keyframes littleJump {
     0% {
-      filter: opacity(0);
+        transform: translateY(0);
     }
-    100% {
-      filter: opacity(1);
+
+    15% {
+        transform: translateY(-24px);
     }
-  }
-  
-  @keyframes fadeOut {
+
+    30% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
     0% {
-      filter: opacity(1);
+        filter: opacity(0);
     }
+
     100% {
-      filter: opacity(0);
+        filter: opacity(1);
     }
-  }
-  
-  @keyframes bearEating {
-    0%, 100% {
-      transform: translateY(0);
+}
+
+@keyframes fadeOut {
+    0% {
+        filter: opacity(1);
     }
-    50% {
-      transform: translateY(20px);
+
+    100% {
+        filter: opacity(0);
     }
-  }
+}
+
+@keyframes bearShy {
+    0% {
+        transform: translateY(0);
+    }
+
+    90% {
+        transform: translateY(-190px);
+    }
+
+    100% {
+        transform: translateY(-230px);
+    }
+}
