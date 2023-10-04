@@ -134,6 +134,10 @@ h1.shown:hover {
   right: 4px;
 }
 
+#deck .card:last-child {
+  animation: littleJump 2s ease-out infinite;
+}
+
 #quiz-panel {
   display: none;
   /* display: block; */

@@ -114,7 +114,15 @@ function checkAnswer(answerId) {
 }
 
 function updateDeck() {
-
+  let shouldHave = 3;
+  if (questions.length < 30) shouldHave--;
+  if (questions.length < 29) shouldHave--;
+  if (questions.length < 28) shouldHave--;
+  // if (!questions.length) shouldHave--;
+  console.log()
+  while (deckElement.childNodes.length != shouldHave && deckElement.lastChild) {
+    deckElement.removeChild(deckElement.lastChild);
+  }
 }
 
 window.onload = () => {
@@ -122,7 +130,7 @@ window.onload = () => {
     appendIcon(icon.coords, icon.icon, false);
     coords.splice(coords.findIndex(c => c == icon.coords), 1);
   }
-  deckElement.style.bottom = '-100px';
+  updateDeck();
 };
 
 
