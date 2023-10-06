@@ -104,8 +104,7 @@ h1.shown:hover {
   position: absolute;
   bottom: -100px;
   right: 10px;
-  /* background-color: white;
-  border-radius: 15px; */
+  animation: fadeIn 3s ease-in-out forwards;
 }
 
 #deck .card {
@@ -120,18 +119,28 @@ h1.shown:hover {
   border-right: 1px solid #000000ba;
 }
 
-#deck .card.C {
+#deck .card.E {
   z-index: 1;
 }
-#deck .card.B {
+#deck .card.D {
   z-index: 2;
   top: 2px;
   right: 2px;
 }
-#deck .card.A {
+#deck .card.C {
   z-index: 3;
   top: 4px;
   right: 4px;
+}
+#deck .card.B {
+  z-index: 4;
+  top: 6px;
+  right: 6px;
+}
+#deck .card.A {
+  z-index: 5;
+  top: 8px;
+  right: 8px;
 }
 
 #deck .card:last-child {

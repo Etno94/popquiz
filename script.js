@@ -60,6 +60,7 @@ deckElement.addEventListener('click', () => {
     localStorage.setItem('questions', JSON.stringify(questions));
   }
   buildQuestion();
+  updateDeck();
   openQuizPanel();
 });
 
@@ -104,6 +105,7 @@ function checkAnswer(answerId) {
   let answer = currentQuestion.answers.find(a => a.id == answerId);
   if (answer.correct) {
     currentQuestion = null;
+    updateDeck();
     localStorage.removeItem('currentQuestion');
     addIcon(answer.icon);
     closeQuizPanel();
@@ -114,15 +116,25 @@ function checkAnswer(answerId) {
 }
 
 function updateDeck() {
-  let shouldHave = 3;
-  if (questions.length < 30) shouldHave--;
-  if (questions.length < 29) shouldHave--;
-  if (questions.length < 28) shouldHave--;
-  // if (!questions.length) shouldHave--;
-  console.log()
-  while (deckElement.childNodes.length != shouldHave && deckElement.lastChild) {
-    deckElement.removeChild(deckElement.lastChild);
-  }
+  let itHas = 0;
+  deckElement.childNodes.forEach(node => {
+    if (node.tagName == 'DIV') itHas++;
+  });
+
+  let shouldHave = 5;
+  if (questions.length < 25) shouldHave = 4;
+  if (questions.length < 15) shouldHave = 3;
+  if (questions.length < 5) shouldHave = 2;
+  if (questions.length < 2) shouldHave = 1;
+  if (questions.length < 1 && !currentQuestion) shouldHave = 0;
+  if (shouldHave == itHas) return;
+
+  deckElement.childNodes.forEach(node => {
+    if (node.tagName == 'DIV' && shouldHave < itHas) {
+      deckElement.removeChild(node);
+      itHas--;
+    }
+  });
 }
 
 window.onload = () => {
