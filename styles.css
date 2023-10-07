@@ -106,7 +106,7 @@ h1.shown:hover {
   max-width: 30%;
   max-height: 25%;
   position: absolute;
-  bottom: -100px;
+  bottom: -50px;
   right: 10px;
   animation: fadeIn 3s ease-in-out forwards;
 }
@@ -119,32 +119,48 @@ h1.shown:hover {
   right: 0;
   background-color: white;
   border-radius: 15px;
-  border-top: 1px solid #000000ba;
-  border-right: 1px solid #000000ba;
+  /* border-top: 1px solid #000000ba;
+  border-right: 1px solid #000000ba; */
+  filter: drop-shadow(1px 1px 2px black);
 }
 
+/* WoW card */
 #deck .card.E {
   z-index: 1;
+  background: url(https://cdn.hearthstonetopdecks.com/wp-content/uploads/2018/02/card-back-azeroth-is-burning.png);
+  background-size: cover;
 }
+/* 21 pilots card */
 #deck .card.D {
   z-index: 2;
   top: 2px;
   right: 2px;
+  background: url(https://i.pinimg.com/originals/76/55/d0/7655d0a226115e3c2d410c85f6ed99dd.jpg);
+  background-size: cover;
 }
+/* Buttercup card */
 #deck .card.C {
   z-index: 3;
   top: 4px;
   right: 4px;
+  background: url(https://image.spreadshirtmedia.net/image-server/v1/compositions/T877A348PA5819PT17X8Y16D179020067W17094H16760/views/1,width=550,height=550,appearanceId=348,backgroundColor=353D56,noPt=true/powerpuff-girls-buttercup-kids-premium-longsleeve-shirt.jpg);
+  background-size: cover;
 }
+/* Principito card */
 #deck .card.B {
   z-index: 4;
   top: 6px;
   right: 6px;
+  background: url(https://i.pinimg.com/originals/88/aa/b6/88aab6f0359a60b2109a117ade784064.jpg);
+  background-size: cover;
 }
+/* Sakura card*/
 #deck .card.A {
   z-index: 5;
   top: 8px;
   right: 8px;
+  background: url(https://i.pinimg.com/originals/75/37/e0/7537e02d5f1b084a6e54a7eefcd6e6bc.jpg);
+  background-size: cover;
 }
 
 #deck .card:last-child {
