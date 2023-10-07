@@ -94,7 +94,7 @@ export const quiz = [
   },
   {
     id: 2,
-    question: '¿Vos sos la cumplañera de la que todo el mundo viene gedeando toda la semana?',
+    question: '¿Vos sos la cumplañera de la que todo el mundo vino gedeando en la semana?',
     answers: [
       {
         id: 1,
