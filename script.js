@@ -90,6 +90,7 @@ function buildQuestion() {
     iconBtn.addEventListener('click', () => checkAnswer(ans.id));
     let answerSpan = document.createElement('span');
     answerSpan.innerHTML = `${ans.answer}`;
+    answerSpan.addEventListener('click', () => checkAnswer(ans.id));
 
     div.append(iconBtn, answerSpan);
 

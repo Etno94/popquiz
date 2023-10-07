@@ -570,7 +570,7 @@ export const quiz = [
   },
   {
     id: 22,
-    question: 'Mentí, se te coló un ratón. Buscalo',
+    question: 'Mentí, se te coló un ratón. ¡Buscalo!',
     answers: [
       {
         id: 1,

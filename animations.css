@@ -48,6 +48,16 @@
     }
 }
 
+@keyframes contrastDown {
+    0% {
+        filter: contrast(1);
+    }
+
+    100% {
+        filter: contrast(0.3);
+    }
+}
+
 @keyframes bearShy {
     0% {
         transform: translateY(0);
@@ -79,7 +89,7 @@
 @keyframes pulseButton {
 	0% {
 		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+		box-shadow: 0 0 0 0 rgb(202 83 196);
 	}
 	
 	70% {
