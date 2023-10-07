@@ -45,6 +45,419 @@
     width: 20px;
   }
 
+  .icon.💅::after {
+    content: '💅';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon.🤐::after {
+    content: '🤐';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon.👀::after {
+    content: '👀';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon.🤭::after {
+    content: '🤭';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon.😑::after {
+    content: '😑';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🙄::after {
+    content: '🙄';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤤::after {
+    content: '🤤';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.😇::after {
+    content: '😇';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🧨::after {
+    content: '🧨';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon.🥰::after {
+    content: '🥰';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
+  .icon.😒::after {
+    content: '😒';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.✨::after {
+    content: '✨';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🎁::after {
+    content: '🎁';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🎉::after {
+    content: '🎉';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤢::after {
+    content: '🤢';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.💖::after {
+    content: '💖';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.💔::after {
+    content: '💔';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤫::after {
+    content: '🤫';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.😶::after {
+    content: '😶';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.😳::after {
+    content: '😳';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🙈::after {
+    content: '🙈';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤣::after {
+    content: '🤣';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🌍::after {
+    content: '🌍';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.❓::after {
+    content: '❓';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🧙::after {
+    content: '🧙';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🕹️::after {
+    content: '🕹️';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🏝️::after {
+    content: '🏝️';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.💣::after {
+    content: '💣';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🚗::after {
+    content: '🚗';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🚜::after {
+    content: '🚜';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.👨‍🎤::after {
+    content: '👨‍🎤';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.👨‍💼::after {
+    content: '👨‍💼';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🎊::after {
+    content: '🎊';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🎇::after {
+    content: '🎇';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🎆::after {
+    content: '🎆';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.💙::after {
+    content: '💙';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.💚::after {
+    content: '💚';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.❤️::after {
+    content: '❤️';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🐭::after {
+    content: '🐭';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🥗::after {
+    content: '🥗';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🎩::after {
+    content: '🎩';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.😱::after {
+    content: '😱';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🍺::after {
+    content: '🍺';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🍸::after {
+    content: '🍸';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🍷::after {
+    content: '🍷';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🥺::after {
+    content: '🥺';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤩::after {
+    content: '🤩';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🧝‍♀️::after {
+    content: '🧝‍♀️';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🐽::after {
+    content: '🐽';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🍫::after {
+    content: '🍫';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🧟::after {
+    content: '🧟';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🍔::after {
+    content: '🍔';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤔::after {
+    content: '🤔';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🐻::after {
+    content: '🐻';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.🤺::after {
+    content: '🤺';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.⚗️::after {
+    content: '⚗️';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.💓::after {
+    content: '💓';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+  .icon.👄::after {
+    content: '👄';
+    position: absolute;
+    animation: floatUp 2s ease-in-out infinite;
+    height: 20px;
+    width: 20px;
+  }
+
 .figure.shown .icon::after {
   animation: fadeOut 3s ease-in-out forwards;
 }

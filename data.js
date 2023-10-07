@@ -67,691 +67,729 @@ export const coords = [
   '10px, 32px',
 ];
 
-export const icons = [
-  '🎈', '🕯️', '🔥',
-  '😎'
-]
-
 export const quiz = [
   {
     id: 1,
-    question: 'Pregunta 1',
+    question: '¿Cómo te llamás?',
     answers: [
       {
         id: 1,
-        answer: 'Q1 - Respuesta 1',
+        answer: 'Anto',
         icon: '😎',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q1 - Respuesta 2',
-        icon: '🔥',
+        answer: 'Barbie',
+        icon: '💅',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q1 - Respuesta 3',
-        icon: '🎈',
+        answer: 'Baby Ruthless',
+        icon: '🔥',
+        correct: true
       },
     ]
   },
   {
     id: 2,
-    question: 'Pregunta 2',
+    question: '¿Vos sos la cumplañera de la que todo el mundo viene gedeando toda la semana?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Ehh....',
+        icon: '🤐',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Nada que ver',
+        icon: '👀',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Sabelo bb',
+        icon: '😎',
+        correct: true
       },
     ]
   },
   {
     id: 3,
-    question: 'Pregunta 2',
+    question: '¿Cuántos cumplís?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: 'No dije que cumpliera años',
+        icon: '👀',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '29',
+        icon: '🤭',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '31',
+        icon: '😑',
+        correct: true
       },
     ]
   },
   {
     id: 4,
-    question: 'Pregunta 2',
+    question: '¡Picarona! Osea que venís rockanrolleando desde el 92',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Claramente',
+        icon: '😎',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Duh',
+        icon: '🙄',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Y pienso seguir mucho más',
+        icon: '💅',
+        correct: true
       },
     ]
   },
   {
     id: 5,
-    question: 'Pregunta 2',
+    question: '¿Estás contenta? ¿La estás pasando bien?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Obvio',
+        icon: '😎',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Chi',
+        icon: '🥰',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Ño',
+        icon: '😒',
+        correct: true
       },
     ]
   },
   {
     id: 6,
-    question: 'Pregunta 2',
+    question: 'Escuché por ahí que tenés un duo cumplañero de hace unos días',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: '¡Siii!',
+        icon: '🥰',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '¿Duo?',
+        icon: '🤐',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Mi hermano Lucas',
+        icon: '😎',
+        correct: true
       },
     ]
   },
   {
     id: 7,
-    question: 'Pregunta 2',
+    question: '¿Peleaban por regalos de más peques?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Para nada',
+        icon: '🤭',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Todos los años',
+        icon: '🙄',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Yo siempre ganaba',
+        icon: '✨',
+        correct: true
       },
     ]
   },
   {
     id: 8,
-    question: 'Pregunta 2',
+    question: 'Elegí una decoración para tu salón de fiesta',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
+        answer: '',
         icon: '🎈',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '',
+        icon: '🕯️',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '',
+        icon: '🎁',
+        correct: true
+      },
+      {
+        id: 4,
+        answer: '',
+        icon: '🎉',
+        correct: true
       },
     ]
   },
   {
     id: 9,
-    question: 'Pregunta 2',
+    question: '¿Qué comiste hoy para celebrar?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Panchitos (o algo rico)',
+        icon: '🤤',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Cerdo (yeah right)',
+        icon: '🤢',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Algo sanito',
+        icon: '😇',
+        correct: true
       },
     ]
   },
   {
     id: 10,
-    question: 'Pregunta 2',
+    question: '¿Vas a festejarlo en familia?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Seguramente',
+        icon: '💖',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Tengo que pensarlo',
+        icon: '🤔',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'No creo',
+        icon: '💔'
       },
     ]
   },
   {
     id: 11,
-    question: 'Pregunta 2',
+    question: '¿Con amistades?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Work in progress',
+        icon: '🤫',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Lo dudo',
+        icon: '🤔',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Nop',
+        icon: '😶',
+        correct: true
       },
     ]
   },
   {
     id: 12,
-    question: 'Pregunta 2',
+    question: '¿Algún otro festejo en mente? 👀',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: '👀',
+        icon: '👀',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '👀👀👀',
+        icon: '😳',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '👀👀👀👀👀👀👀👀👀👀👀👀',
+        icon: '🙈',
+        correct: true
       },
     ]
   },
   {
     id: 13,
-    question: 'Pregunta 2',
+    question: '¡🐽!',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: '¿Queeé?',
+        icon: '🤭',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Caiese',
+        icon: '🙈',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Estúpido',
+        icon: '🤣',
+        correct: true
       },
     ]
   },
   {
     id: 14,
-    question: 'Pregunta 2',
+    question: 'La boquita 👀',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: '¿Ah?',
+        icon: '🤭',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '¿Qué pasa con mi boca?',
+        icon: '😶',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Puerco',
+        icon: '🤭'
       },
     ]
   },
   {
     id: 15,
-    question: 'Pregunta 2',
+    question: 'Sigamos 🤭 ¿Juego de mesa?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'T.E.G.',
+        icon: '🌍',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Preguntados',
+        icon: '❓',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'El Erudito',
+        icon: '🧙',
+        correct: true
       },
     ]
   },
   {
     id: 16,
-    question: 'Pregunta 2',
+    question: '¿Juego de consola? 🕹️',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Mario',
+        icon: '🕹️',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Pókemon',
+        icon: '🕹️',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Donkey Kong',
+        icon: '🕹️',
+        correct: true
       },
     ]
   },
   {
     id: 17,
-    question: 'Pregunta 2',
+    question: '¿Juego de PC?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Stardew Valley',
+        icon: '🚜',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Broken Sword',
+        icon: '💣',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Need for Speed',
+        icon: '🚗',
+        correct: true
       },
     ]
   },
   {
     id: 18,
-    question: 'Pregunta 2',
+    question: '¿A quién dejás pasar a tu fiesta?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: 'Alex Turner',
+        icon: '👨‍🎤',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Gandalf the Grey',
+        icon: '🧙',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Fox Mulder',
+        icon: '👨‍💼',
+        correct: true
       },
     ]
   },
   {
     id: 19,
-    question: 'Pregunta 2',
+    question: 'Sumemos otra decoración',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: '',
+        icon: '🎇',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '¿Seguro que esto es una vela? 👀',
+        icon: '🧨',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '',
+        icon: '🎆',
+        correct: true
+      },
+      {
+        id: 4,
+        answer: '',
+        icon: '🎊',
+        correct: true
       },
     ]
   },
   {
     id: 20,
-    question: 'Pregunta 2',
+    question: '¿Cuál superpoderosa tiene pase VIP? 💗',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Ella le habla a los animalitos, yo lidio con animales todos los días',
+        icon: '💙',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Grumpy punky gurl',
+        icon: '💚',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Porque #sabelotodo siempre 💅',
+        icon: '❤️',
+        correct: true
       },
     ]
   },
   {
     id: 21,
-    question: 'Pregunta 2',
+    question: '¿Qué sería un buen alimento para una serpiente? 🐍',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: 'Ratones (no te preocupes, no van a entrar al salón)',
+        icon: '🐭',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Un sombrero',
+        icon: '🎩',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Lechuguita',
+        icon: '🥗'
       },
     ]
   },
   {
     id: 22,
-    question: 'Pregunta 2',
+    question: 'Mentí, se te coló un ratón. Buscalo',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: '',
+        icon: '😱',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: '',
+        icon: '😱',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '',
+        icon: '😱',
+        correct: true
       },
     ]
   },
   {
     id: 23,
-    question: 'Pregunta 2',
+    question: 'Tranqui, ya pasamos el pesticida. Fijate que aún haya bebida',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: '¡Birrita!',
+        icon: '🍺',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Me copo con un gin',
+        icon: '🍸',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '¿Fernet no había? 🥺',
+        icon: '🍷',
+        correct: true
       },
     ]
   },
   {
     id: 24,
-    question: 'Pregunta 2',
+    question: 'No, mi amor. Aún no tenemos Fernet en los emojis. ¡Unicode, ponete las pilas!',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Te voy a hacer puchero',
+        icon: '🥺',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Malo',
+        icon: '🥺',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Quiero mi ferchito',
+        icon: '🥺',
+        correct: true
       },
     ]
   },
   {
     id: 25,
-    question: 'Pregunta 2',
+    question: 'En casa te preparo ferchito',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Siiii',
+        icon: '🤩',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Chiiii',
+        icon: '🥰',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Pero quiero ahora',
+        icon: '🥺',
+        correct: true
       },
     ]
   },
   {
     id: 26,
-    question: 'Pregunta 2',
+    question: 'Y te hago masajitos',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: '',
+        icon: '😳',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Puerco',
+        icon: '🙈',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Y me rascas en la espaldita',
+        icon: '🤩',
+        correct: true
       },
     ]
   },
   {
     id: 27,
-    question: 'Pregunta 2',
+    question: 'Y te rasco en la espaldita. Pero antes decime ¿Cómo te dicen?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
-        correct: true
+        answer: 'Pirignacia',
+        icon: '🧝‍♀️',
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Cochinota',
+        icon: '🐽',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Pimpona',
+        icon: '🍫',
+        correct: true
       },
     ]
   },
   {
     id: 28,
-    question: 'Pregunta 2',
+    question: '¿Y cómo me dicen a mí?',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Zefio',
+        icon: '🧟',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Nacho (no hay emoji, Unicode y lpqtp)',
+        icon: '🍔',
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: '¿Y vos eras...?',
+        icon: '🤔',
+        correct: true
       },
     ]
   },
   {
     id: 29,
-    question: 'Pregunta 2',
+    question: '¿Enserio aún seguís sin saber como me llamo? 😒',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Vos sos Mío',
+        icon: '🤭',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Vos sos Osito',
+        icon: '🐻',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'Your name is Inigo Montoya. I killed your father. I will prepare to die!',
+        icon: '🤺',
+        correct: true
       },
     ]
   },
   {
     id: 30,
-    question: 'Pregunta 2',
+    question: 'Say my name',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'Heisenberg',
+        icon: '⚗️',
         correct: true
-      },
-      {
-        id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
-      },
-      {
-        id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
-      },
+      }
     ]
   },
   {
     id: 31,
-    question: 'Pregunta 2',
+    question: 'Youre damn right! Happy birthday babe 🎁 I love you 💕',
     answers: [
       {
         id: 1,
-        answer: 'Q2 - Respuesta 1',
-        icon: '🎈',
+        answer: 'I love you more ',
+        icon: '🥰',
         correct: true
       },
       {
         id: 2,
-        answer: 'Q2 - Respuesta 2',
-        icon: '🎈',
+        answer: 'Love you deeply',
+        icon: '💓',
+        correct: true
       },
       {
         id: 3,
-        answer: 'Q2 - Respuesta 3',
-        icon: '🎈'
+        answer: 'I will bite the fuck out of you',
+        icon: '👄',
+        correct: true
       },
     ]
   },
