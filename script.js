@@ -11,6 +11,8 @@ let popcornEl = document.getElementById('popcorn');
 let bearEl = document.getElementById('bear');
 let congratzEl = document.getElementsByTagName('h1')[0];
 
+let resetBtn = document.getElementById('reset');
+
 function addIcon(iconClass) {
   if (!coords.length) return;
   let iCoords = Math.floor(Math.random() * (coords.length - 1));
@@ -37,6 +39,7 @@ function checkTotalIcons() {
     popcornEl.classList.add('shown');
     bearEl.classList.add('shown');
     congratzEl.classList.add('shown');
+    resetBtn.classList.add('shown');
   }
 }
 
@@ -137,6 +140,12 @@ function updateDeck() {
     }
   });
 }
+
+resetBtn.addEventListener('click', () => {
+  localStorage.clear();
+  location.reload();
+})
+
 
 window.onload = () => {
   for(let icon of iconsAppended) {

@@ -181,7 +181,7 @@ h1.shown:hover {
   border: 1px solid #ccc;
   padding: 24px;
   margin: 16px;
-  border-radius: 5px;
+  border-radius: 15px;
 } 
 .quiz-card {
   display: flex;
@@ -191,7 +191,7 @@ h1.shown:hover {
 }
 .close-card {
   position: absolute;
-  top: 10px;
+  top: 2px;
   right: 10px;
   font-size: 24px;
   cursor: pointer;
@@ -235,4 +235,20 @@ h1.shown:hover {
 
 .answer.low-contrast button {
   animation: none;
+}
+
+/* Reset Button*/
+
+#reset {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  font-family: monospace;
+  color: white;
+  font-size: 18px;
+  filter: opacity(0);
+}
+
+#reset.shown {
+  animation: fadeIn 3s ease-in-out forwards;
 }

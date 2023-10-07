@@ -394,7 +394,8 @@ export const quiz = [
       {
         id: 3,
         answer: 'Puerco',
-        icon: '🤭'
+        icon: '🤭',
+        correct: true
       },
     ]
   },
